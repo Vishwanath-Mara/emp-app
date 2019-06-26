@@ -1,0 +1,66 @@
+  .loginCard {
+    margin: auto;
+    max-width: 400px;
+    margin-top: 170px;
+    border-radius: 5px;
+    padding: 60px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .fieldset {
+    margin: 40px 0;
+    border-radius: 5px;
+    padding: 0 10px 25px;
+    border: 2px solid #073d8d;
+  }
+  
+  .fieldset:hover {
+    border: 2.5px solid #032455;
+  }
+  
+  .legend {
+    border: 0;
+    margin: 0;
+    width: auto;
+    padding: 0 10px;
+    color: #7a7a7a;
+    font-size: 18px !important;
+    text-align: left !important;
+  }
+  
+  .input-box {
+    width: 100%;
+    border: 0;
+    font-size: 18px;
+  }
+
+  .loginTitle {
+      font-size: 24px;
+  }
+  
+  .input-box:focus {
+    outline: none;
+  }
+
+  .loginButton {
+    background-color: #073d8d !important;
+    color: white !important;
+    transition: 0.3s ease-out;
+    outline: none !important;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 35px;
+    float: right;
+  }
+
+  .loginButton:hover {
+    background-color: #fff !important;
+    color: #073d8d !important;
+    border: 1px solid #073d8d;
+    box-shadow: 5px#073d8d;
+  }
+  
+  .authMsg {
+      color: red;
+  }
